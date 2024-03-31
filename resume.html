@@ -16,12 +16,6 @@
     </nav>
 </header>
 <style>
-    .pdf {
-        width: 100%;
-        aspect-ratio: 4 / 3;
-    }
-    .pdf,
-    html,
     body {
         height: 100%;
         margin: 0;
@@ -29,10 +23,6 @@
     }
 </style>
 <body>
-    <object class="pdf"
-            data="resume.pdf"
-            width="800"
-            height="500">
-    </object>
+    <iframe id="pdf-js-viewer" src="resume.pdf" title="webviewer" frameborder="0" width="800" height="1080"></iframe>
 </body>
 </html>
