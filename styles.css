@@ -6,7 +6,7 @@
 }
 
 header {
-    background-color: var(--main-bg-color);
+    background-color: #252526;
     color: var(--main-text-color);
     padding: var(--main-padding);
     font-size: 2rem;
@@ -37,7 +37,7 @@ nav ul {
 }
 
 nav ul li a:hover {
-    color: #9cdcfe; /* Change the color to light blue when hovered */
+    color: #9cdcfe;
 }
 
 .container {
@@ -59,25 +59,62 @@ nav ul li a:hover {
     }
 }
 
+/* mobile usage */
 @media (max-width: 600px) {
     body {
         font-size: 18px;
     }
+
+    header {
+        font-size: 1.5rem;
+    }
+
     .about-section {
         flex-direction: column;
         gap: 10px;
     }
+
+    .contact-info {
+        font-size: 1rem;
+    }
+
+    iframe {
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        border: 0;
+    }
+
+    .iframe-container {
+        width: 100%;
+    }
+}
+
+.iframe-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 75%;
+}
+
+.iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
 }
 
 .about-section {
-    padding: 50px;
+    padding: 20px;
     display: flex;
-    gap: 20px;
     text-align: left;
 }
 
 .about-section h2 {
-    padding-right: 20px;
+    padding-right: 50px;
     text-align: center;
 }
 
@@ -93,11 +130,11 @@ nav ul li a:hover {
 }
 
 .contact-info a:hover {
-    color: #9cdcfe96; /* Change the color to light blue when hovered */
+    color: #9cdcfe96;
 }
 
 .coming-soon {
-    font-size: 48px;
+    font-size: 2.5rem;
     text-align: center;
     margin-top: 100px;
     min-height: 100vh;
@@ -109,7 +146,6 @@ footer {
     padding: var(--main-padding);
     font-size: 1.5rem;
     bottom: 0;
-    width: 100%;
     position: relative;
     height: 100px;
     clear: both;
