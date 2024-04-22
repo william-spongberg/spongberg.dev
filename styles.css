@@ -73,6 +73,14 @@ nav ul li a:hover {
     font-size: 2.5rem;
 }
 
+.description img {
+    position: relative; /* Add this line */
+    top: 0; /* Add this line */
+    right: 0; /* Add this line */
+    width: 300px; /* adjust as needed, don't forget to add 'px' */
+    height: 200px; /* maintain aspect ratio, don't forget to add 'px' */
+}
+
 .about-section {
     padding: 20px;
     display: flex;
