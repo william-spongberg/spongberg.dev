@@ -1,8 +1,8 @@
-# Welcome to spongberg.dev
+# spongberg.dev
 
-Explore the personal projects and information of the Spongberg brothers.
+This is the source code for the landing page of William and Zachary Spongberg's personal website, [spongberg.dev](https://spongberg.dev).
 
-## Links
+Find relevant subdomains at:
 
-- [William Spongberg](https://william.spongberg.dev)
-- [Zachary Spongberg](https://zachary.spongberg.dev)
+- [william.spongberg.dev](https://william.spongberg.dev)
+- [zachary.spongberg.dev](https://zachary.spongberg.dev)
