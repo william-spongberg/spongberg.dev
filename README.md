@@ -1,6 +1,6 @@
 # spongberg.dev
 
-This is the source code for the landing page for  [spongberg.dev](https://spongberg.dev).
+This is the source code for  [spongberg.dev](https://spongberg.dev).
 
 Relevant subdomains:
 
